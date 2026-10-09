@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>楊梅高中活動總覽</title>
+<meta name="description" content="依 114 年 8–12 月擴大行政會報會議紀錄整理之活動時間軸">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E📅%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<button class="themebtn" id="themeBtn" type="button">🌓 深淺色</button>
+<header class="hero wrap">
+  <div class="kicker">桃園市立楊梅高級中等學校 · 114 學年度第 1 學期</div>
+  <h1>擴大行政會報活動總覽</h1>
+  <p class="sub">彙整 114 年 8 月至 12 月共 5 次擴大行政會報會議紀錄中提及的各項活動，依時間先後排列。同一活動若在多次會議中出現，已合併並以較新的紀錄為準，原先日期另行註記。</p>
+  <div class="stats" id="stats"></div>
+</header>
+
+<div class="toolbar">
+  <div class="wrap">
+    <div class="row">
+      <input type="search" id="q" placeholder="搜尋活動名稱、地點、講師…">
+      <select id="unit"><option value="">全部處室</option></select>
+      <select id="src"><option value="">全部會議紀錄</option></select>
+    </div>
+    <div class="row" id="cats"></div>
+    <div class="row"><nav class="months" id="months"></nav></div>
+  </div>
+</div>
+
+<main class="wrap" id="main"></main>
+<p class="emptymsg wrap" id="empty">沒有符合條件的活動。</p>
+<footer class="wrap">資料來源：楊梅高中 114 年 8、9、10、11、12 月份第 1 次擴大行政會報會議紀錄（9–12 月為掃描檔，經文字辨識後人工核對整理）。日期依會議紀錄所載，實際辦理情形以學校公告為準。</footer>
+
+<script src="assets/js/data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
